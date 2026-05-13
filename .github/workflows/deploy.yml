@@ -27,7 +27,7 @@ jobs:
       - name: Prepare build folder
         run: |
           mkdir dist
-          cp index.html style.css dist/
+           cp index.html DOES_NOT_EXIST.css dist/
 
       - name: Upload artefact
         uses: actions/upload-pages-artifact@v3
